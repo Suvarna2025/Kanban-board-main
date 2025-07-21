@@ -1,24 +1,70 @@
-# untitled 
+# Getting Started with Create React App
 
-This web-based project management tool is built using **React.js**, **Tailwind CSS**, **uuid**, and **React Icons**. It enables users to create and manage multiple boards for different projects, track tasks, and organize workflow efficiently. The tool allows users to add, edit, delete, and update tasks, assign priority levels, and mark tasks as completed. It also provides drag-and-drop functionality for moving tasks between different cards, enhancing the task management experience.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- **Multiple Boards**: Create and manage multiple boards to organize tasks for various projects.
-- **Task Management**: Add, edit, delete, and update tasks within each board. Mark tasks as completed.
-- **Priority Colors**: Assign color codes to cards to indicate priority levels.
-- **Drag-and-Drop**: Intuitive drag-and-drop functionality for reorganizing tasks across different cards.
-- **Search Functionality**: Search tasks within a board to quickly locate and manage tasks.
-- **Persistent Storage**: Tasks and board data are stored in the browser’s local storage, ensuring data persistence across sessions.
+In the project directory, you can run:
 
-## Usage
+### `npm start`
 
-- **Create a New Board**: Click the "+ New Project" button in the sidebar to create a new board.
-- **Add a Card**: Click on the "+ Add Card" button within a board to create a new card.
-- **Add a Task**: Click on any card to open it, then click the "+ Add Task" button to add a new task.
-- **Edit a Task**: Double-click on a task to modify its content.
-- **Delete a Task**: Use the trash icon next to a task to delete it.
-- **Mark a Task as Done**: Click on the check-circle icon to mark a task as completed.
-- **Drag and Drop**: Drag tasks between cards to reorganize them as needed.
-- **Filter by Color**: Use the color filter dropdown to filter and view tasks by priority.
-- **Search Tasks**: Utilize the search bar to quickly locate tasks within the selected board.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
